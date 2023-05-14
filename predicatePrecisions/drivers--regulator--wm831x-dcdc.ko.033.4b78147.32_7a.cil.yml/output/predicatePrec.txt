@@ -1,0 +1,13 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_cred_guard_mutex_of_signal_struct () (_ BitVec 32))
+(declare-fun ldv_mutex_mutex_of_device () (_ BitVec 32))
+(declare-fun ldv_mutex_pm_mutex () (_ BitVec 32))
+
+*:
+(assert (let ((.def_8866 (= ldv_mutex_cred_guard_mutex_of_signal_struct (_ bv1 32)))).def_8866))
+(assert (let ((.def_8873 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_8873))
+(assert (let ((.def_8880 (= ldv_mutex_pm_mutex (_ bv1 32)))).def_8880))
+(assert (let ((.def_8885 (= ldv_mutex_cred_guard_mutex_of_signal_struct (_ bv2 32)))).def_8885))
+(assert (let ((.def_8890 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_8890))
+(assert (let ((.def_8895 (= ldv_mutex_pm_mutex (_ bv2 32)))).def_8895))
+

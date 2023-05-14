@@ -1,0 +1,10 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_urb_state () (_ BitVec 32))
+(declare-fun ldv_coherent_state () (_ BitVec 32))
+
+*:
+(assert (let ((.def_1785 (= ldv_urb_state (_ bv0 32)))).def_1785))
+(assert (let ((.def_1792 (= ldv_coherent_state (_ bv0 32)))).def_1792))
+(assert (let ((.def_1798 (bvslt ldv_coherent_state (_ bv1 32)))).def_1798))
+(assert (let ((.def_1804 (bvslt ldv_urb_state (_ bv1 32)))).def_1804))
+

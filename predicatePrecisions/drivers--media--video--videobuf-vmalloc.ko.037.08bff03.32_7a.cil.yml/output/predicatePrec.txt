@@ -1,0 +1,26 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_mutex_of_device () (_ BitVec 32))
+(declare-fun ldv_mutex_vb_lock_of_videobuf_queue () (_ BitVec 32))
+(declare-fun |videobuf_vm_close::q| () (_ BitVec 64))
+(declare-fun |*(struct_mutex)*| () (Array (_ BitVec 64) (_ BitVec 64)))
+
+*:
+(assert (let ((.def_99 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_99))
+(assert (let ((.def_106 (= ldv_mutex_vb_lock_of_videobuf_queue (_ bv1 32)))).def_106))
+(assert (let ((.def_112 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_112))
+(assert (let ((.def_117 (= ldv_mutex_vb_lock_of_videobuf_queue (_ bv2 32)))).def_117))
+
+reach_error N1:
+(assert false)
+(assert (let ((.def_99 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_99))
+(assert (let ((.def_106 (= ldv_mutex_vb_lock_of_videobuf_queue (_ bv1 32)))).def_106))
+(assert (let ((.def_112 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_112))
+(assert (let ((.def_117 (= ldv_mutex_vb_lock_of_videobuf_queue (_ bv2 32)))).def_117))
+
+videobuf_vm_close N329:
+(assert (let ((.def_1406 (bvadd (_ bv152 64) |videobuf_vm_close::q|)))(let ((.def_1408 (select |*(struct_mutex)*| .def_1406)))(let ((.def_1409 (= .def_1408 (_ bv0 64)))).def_1409))))
+(assert (let ((.def_117 (= ldv_mutex_vb_lock_of_videobuf_queue (_ bv2 32)))).def_117))
+(assert (let ((.def_99 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_99))
+(assert (let ((.def_106 (= ldv_mutex_vb_lock_of_videobuf_queue (_ bv1 32)))).def_106))
+(assert (let ((.def_112 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_112))
+

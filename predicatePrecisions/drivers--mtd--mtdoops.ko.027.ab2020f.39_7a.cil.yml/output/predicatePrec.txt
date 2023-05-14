@@ -1,0 +1,16 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_spin_alloc_lock_of_task_struct () (_ BitVec 32))
+(declare-fun ldv_spin_lock_of_NOT_ARG_SIGN () (_ BitVec 32))
+(declare-fun ldv_spin_node_size_lock_of_pglist_data () (_ BitVec 32))
+(declare-fun ldv_spin_siglock_of_sighand_struct () (_ BitVec 32))
+
+*:
+(assert (let ((.def_4337 (= ldv_spin_alloc_lock_of_task_struct (_ bv1 32)))).def_4337))
+(assert (let ((.def_4344 (= ldv_spin_lock_of_NOT_ARG_SIGN (_ bv1 32)))).def_4344))
+(assert (let ((.def_4351 (= ldv_spin_node_size_lock_of_pglist_data (_ bv1 32)))).def_4351))
+(assert (let ((.def_4358 (= ldv_spin_siglock_of_sighand_struct (_ bv1 32)))).def_4358))
+(assert (let ((.def_4363 (= ldv_spin_alloc_lock_of_task_struct (_ bv2 32)))).def_4363))
+(assert (let ((.def_4368 (= ldv_spin_lock_of_NOT_ARG_SIGN (_ bv2 32)))).def_4368))
+(assert (let ((.def_4373 (= ldv_spin_node_size_lock_of_pglist_data (_ bv2 32)))).def_4373))
+(assert (let ((.def_4378 (= ldv_spin_siglock_of_sighand_struct (_ bv2 32)))).def_4378))
+

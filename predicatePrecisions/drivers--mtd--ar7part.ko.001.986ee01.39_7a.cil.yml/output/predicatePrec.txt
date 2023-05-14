@@ -1,0 +1,10 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_spin_dma_spin_lock () (_ BitVec 32))
+(declare-fun ldv_spin_lock_of_NOT_ARG_SIGN () (_ BitVec 32))
+
+*:
+(assert (let ((.def_577 (= ldv_spin_dma_spin_lock (_ bv1 32)))).def_577))
+(assert (let ((.def_584 (= ldv_spin_lock_of_NOT_ARG_SIGN (_ bv1 32)))).def_584))
+(assert (let ((.def_589 (= ldv_spin_dma_spin_lock (_ bv2 32)))).def_589))
+(assert (let ((.def_594 (= ldv_spin_lock_of_NOT_ARG_SIGN (_ bv2 32)))).def_594))
+

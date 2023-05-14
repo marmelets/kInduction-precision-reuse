@@ -1,0 +1,54 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_urb_state () (_ BitVec 32))
+(declare-fun ldv_coherent_state () (_ BitVec 32))
+(declare-fun |ldv_main0_sequence_infinite_withcheck_stateful::ldv_s_keyspan_driver_usb_driver| () (_ BitVec 32))
+(declare-fun |keyspan_probe::interface| () (_ BitVec 64))
+(declare-fun |ldv_main0_sequence_infinite_withcheck_stateful::var_group1| () (_ BitVec 64))
+(declare-fun |keyspan_probe::i| () (_ BitVec 32))
+(declare-fun |keyspan_probe::remote| () (_ BitVec 64))
+(declare-fun |*(void)*| () (Array (_ BitVec 64) (_ BitVec 64)))
+
+*:
+(assert (let ((.def_609 (= ldv_urb_state (_ bv0 32)))).def_609))
+(assert (let ((.def_616 (= ldv_coherent_state (_ bv0 32)))).def_616))
+(assert (let ((.def_622 (bvslt ldv_coherent_state (_ bv1 32)))).def_622))
+(assert (let ((.def_628 (bvslt ldv_urb_state (_ bv1 32)))).def_628))
+
+reach_error N1:
+(assert false)
+(assert (let ((.def_609 (= ldv_urb_state (_ bv0 32)))).def_609))
+(assert (let ((.def_616 (= ldv_coherent_state (_ bv0 32)))).def_616))
+(assert (let ((.def_622 (bvslt ldv_coherent_state (_ bv1 32)))).def_622))
+(assert (let ((.def_628 (bvslt ldv_urb_state (_ bv1 32)))).def_628))
+
+keyspan_get_in_endpoint N479:
+(assert (let ((.def_690 (= |ldv_main0_sequence_infinite_withcheck_stateful::ldv_s_keyspan_driver_usb_driver| (_ bv0 32)))).def_690))
+(assert false)
+(assert (let ((.def_609 (= ldv_urb_state (_ bv0 32)))).def_609))
+(assert (let ((.def_616 (= ldv_coherent_state (_ bv0 32)))).def_616))
+(assert (let ((.def_622 (bvslt ldv_coherent_state (_ bv1 32)))).def_622))
+(assert (let ((.def_628 (bvslt ldv_urb_state (_ bv1 32)))).def_628))
+(assert (let ((.def_7075 (= |keyspan_probe::interface| |ldv_main0_sequence_infinite_withcheck_stateful::var_group1|))).def_7075))
+
+keyspan_probe N585:
+(assert (let ((.def_690 (= |ldv_main0_sequence_infinite_withcheck_stateful::ldv_s_keyspan_driver_usb_driver| (_ bv0 32)))).def_690))
+(assert (let ((.def_609 (= ldv_urb_state (_ bv0 32)))).def_609))
+(assert (let ((.def_616 (= ldv_coherent_state (_ bv0 32)))).def_616))
+(assert (let ((.def_622 (bvslt ldv_coherent_state (_ bv1 32)))).def_622))
+(assert (let ((.def_628 (bvslt ldv_urb_state (_ bv1 32)))).def_628))
+(assert (let ((.def_6841 (= |keyspan_probe::i| (_ bv0 32)))).def_6841))
+(assert (let ((.def_7078 (= |keyspan_probe::remote| (_ bv0 64)))).def_7078))
+(assert (let ((.def_7075 (= |keyspan_probe::interface| |ldv_main0_sequence_infinite_withcheck_stateful::var_group1|))).def_7075))
+(assert (let ((.def_7080 (= ldv_urb_state (_ bv1 32)))).def_7080))
+
+ldv_main0_sequence_infinite_withcheck_stateful N679:
+(assert (let ((.def_690 (= |ldv_main0_sequence_infinite_withcheck_stateful::ldv_s_keyspan_driver_usb_driver| (_ bv0 32)))).def_690))
+(assert (let ((.def_609 (= ldv_urb_state (_ bv0 32)))).def_609))
+(assert (let ((.def_616 (= ldv_coherent_state (_ bv0 32)))).def_616))
+(assert (let ((.def_622 (bvslt ldv_coherent_state (_ bv1 32)))).def_622))
+(assert (let ((.def_628 (bvslt ldv_urb_state (_ bv1 32)))).def_628))
+(assert (let ((.def_5512 (= |ldv_main0_sequence_infinite_withcheck_stateful::ldv_s_keyspan_driver_usb_driver| (_ bv1 32)))).def_5512))
+(assert false)
+(assert (let ((.def_7082 (bvadd (_ bv680 64) |ldv_main0_sequence_infinite_withcheck_stateful::var_group1|)))(let ((.def_7084 (select |*(void)*| .def_7082)))(let ((.def_7085 (= .def_7084 (_ bv0 64)))).def_7085))))
+(assert (let ((.def_7080 (= ldv_urb_state (_ bv1 32)))).def_7080))
+

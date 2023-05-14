@@ -1,0 +1,13 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_lmutex_of_mISDNstack () (_ BitVec 32))
+(declare-fun ldv_mutex_mISDN_mutex () (_ BitVec 32))
+(declare-fun ldv_mutex_mutex_of_device () (_ BitVec 32))
+
+*:
+(assert (let ((.def_9077 (= ldv_mutex_lmutex_of_mISDNstack (_ bv1 32)))).def_9077))
+(assert (let ((.def_9084 (= ldv_mutex_mISDN_mutex (_ bv1 32)))).def_9084))
+(assert (let ((.def_9091 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_9091))
+(assert (let ((.def_9096 (= ldv_mutex_lmutex_of_mISDNstack (_ bv2 32)))).def_9096))
+(assert (let ((.def_9101 (= ldv_mutex_mISDN_mutex (_ bv2 32)))).def_9101))
+(assert (let ((.def_9106 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_9106))
+

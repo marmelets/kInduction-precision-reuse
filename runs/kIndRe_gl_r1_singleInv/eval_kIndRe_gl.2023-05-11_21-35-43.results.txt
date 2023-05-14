@@ -1,0 +1,24 @@
+   BENCHMARK INFORMATION
+benchmark definition:    ../../precision-reuse-files/eval_kIndRe_gl.xml
+name:                    eval_kIndRe_gl
+run sets:
+date:                    Thu, 2023-05-11 21:35:43 CEST
+tool:                    CPAchecker reuse-precision-k-induction:43654
+tool executable:         scripts/cpa.sh
+options:                 -heap 8000M -disable-java-assertions -setprop cpa.predicate.memoryAllocationsAlwaysSucceed=true -benchmark -timelimit 900s
+resource limits:
+- memory:                15000.0 MB
+- time:                  900 s
+- cpu cores:             2
+hardware requirements:
+- cpu model:             1230
+- cpu cores:             2
+- memory:                15000.0 MB
+------------------------------------------------------------
+
+
+
+Run set 1 of 1 with options '-heap 8000M -disable-java-assertions -setprop cpa.predicate.memoryAllocationsAlwaysSucceed=true -benchmark -timelimit 900s -kInduction -setprop bmc.kinduction.localAsFunction=false -setprop bmc.kinduction.strategy=GLOBAL_AND_LOCAL -setprop cpa.predicate.allowedUnsupportedFunctions=memset,memmove -skipRecursion' and propertyfile 'None'
+
+inputfile                                                                                                                         status                       cpu time   wall time        host
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

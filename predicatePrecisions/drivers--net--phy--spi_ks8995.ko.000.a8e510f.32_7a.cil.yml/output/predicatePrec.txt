@@ -1,0 +1,10 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_lock_of_ks8995_switch () (_ BitVec 32))
+(declare-fun ldv_mutex_mutex_of_device () (_ BitVec 32))
+
+*:
+(assert (let ((.def_583 (= ldv_mutex_lock_of_ks8995_switch (_ bv1 32)))).def_583))
+(assert (let ((.def_590 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_590))
+(assert (let ((.def_595 (= ldv_mutex_lock_of_ks8995_switch (_ bv2 32)))).def_595))
+(assert (let ((.def_600 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_600))
+

@@ -1,0 +1,13 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_cred_guard_mutex_of_signal_struct () (_ BitVec 32))
+(declare-fun ldv_mutex_disc_mutex_of_usb_serial () (_ BitVec 32))
+(declare-fun ldv_mutex_mutex_of_device () (_ BitVec 32))
+
+*:
+(assert (let ((.def_3711 (= ldv_mutex_cred_guard_mutex_of_signal_struct (_ bv1 32)))).def_3711))
+(assert (let ((.def_3718 (= ldv_mutex_disc_mutex_of_usb_serial (_ bv1 32)))).def_3718))
+(assert (let ((.def_3725 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_3725))
+(assert (let ((.def_3730 (= ldv_mutex_cred_guard_mutex_of_signal_struct (_ bv2 32)))).def_3730))
+(assert (let ((.def_3735 (= ldv_mutex_disc_mutex_of_usb_serial (_ bv2 32)))).def_3735))
+(assert (let ((.def_3740 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_3740))
+

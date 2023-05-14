@@ -1,0 +1,16 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_bus_lock_of_i2c_adapter () (_ BitVec 32))
+(declare-fun ldv_mutex_lock_of_fb_info () (_ BitVec 32))
+(declare-fun ldv_mutex_update_lock_of_backlight_device () (_ BitVec 32))
+(declare-fun ldv_mutex_update_lock_of_lcd_device () (_ BitVec 32))
+
+*:
+(assert (let ((.def_4920 (= ldv_mutex_bus_lock_of_i2c_adapter (_ bv1 32)))).def_4920))
+(assert (let ((.def_4927 (= ldv_mutex_lock_of_fb_info (_ bv1 32)))).def_4927))
+(assert (let ((.def_4934 (= ldv_mutex_update_lock_of_backlight_device (_ bv1 32)))).def_4934))
+(assert (let ((.def_4941 (= ldv_mutex_update_lock_of_lcd_device (_ bv1 32)))).def_4941))
+(assert (let ((.def_4946 (= ldv_mutex_bus_lock_of_i2c_adapter (_ bv2 32)))).def_4946))
+(assert (let ((.def_4951 (= ldv_mutex_lock_of_fb_info (_ bv2 32)))).def_4951))
+(assert (let ((.def_4956 (= ldv_mutex_update_lock_of_backlight_device (_ bv2 32)))).def_4956))
+(assert (let ((.def_4961 (= ldv_mutex_update_lock_of_lcd_device (_ bv2 32)))).def_4961))
+

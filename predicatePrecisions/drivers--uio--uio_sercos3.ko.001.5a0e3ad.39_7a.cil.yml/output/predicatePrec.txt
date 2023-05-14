@@ -1,0 +1,22 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_spin_d_lock_of_dentry () (_ BitVec 32))
+(declare-fun ldv_spin_dcache_lock () (_ BitVec 32))
+(declare-fun ldv_spin_i_lock_of_inode () (_ BitVec 32))
+(declare-fun ldv_spin_ier0_cache_lock_of_sercos3_priv () (_ BitVec 32))
+(declare-fun ldv_spin_lock_of_NOT_ARG_SIGN () (_ BitVec 32))
+(declare-fun ldv_spin_node_size_lock_of_pglist_data () (_ BitVec 32))
+
+*:
+(assert (let ((.def_1980 (= ldv_spin_d_lock_of_dentry (_ bv1 32)))).def_1980))
+(assert (let ((.def_1987 (= ldv_spin_dcache_lock (_ bv1 32)))).def_1987))
+(assert (let ((.def_1994 (= ldv_spin_i_lock_of_inode (_ bv1 32)))).def_1994))
+(assert (let ((.def_2001 (= ldv_spin_ier0_cache_lock_of_sercos3_priv (_ bv1 32)))).def_2001))
+(assert (let ((.def_2008 (= ldv_spin_lock_of_NOT_ARG_SIGN (_ bv1 32)))).def_2008))
+(assert (let ((.def_2015 (= ldv_spin_node_size_lock_of_pglist_data (_ bv1 32)))).def_2015))
+(assert (let ((.def_2020 (= ldv_spin_d_lock_of_dentry (_ bv2 32)))).def_2020))
+(assert (let ((.def_2025 (= ldv_spin_dcache_lock (_ bv2 32)))).def_2025))
+(assert (let ((.def_2030 (= ldv_spin_i_lock_of_inode (_ bv2 32)))).def_2030))
+(assert (let ((.def_2035 (= ldv_spin_ier0_cache_lock_of_sercos3_priv (_ bv2 32)))).def_2035))
+(assert (let ((.def_2040 (= ldv_spin_lock_of_NOT_ARG_SIGN (_ bv2 32)))).def_2040))
+(assert (let ((.def_2045 (= ldv_spin_node_size_lock_of_pglist_data (_ bv2 32)))).def_2045))
+

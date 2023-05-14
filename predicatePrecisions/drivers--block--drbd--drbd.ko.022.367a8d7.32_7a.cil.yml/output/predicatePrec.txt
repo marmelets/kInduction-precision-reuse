@@ -1,0 +1,13 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_md_io_mutex_of_drbd_conf () (_ BitVec 32))
+(declare-fun ldv_mutex_mutex_of_drbd_socket () (_ BitVec 32))
+(declare-fun ldv_mutex_state_mutex_of_drbd_conf () (_ BitVec 32))
+
+*:
+(assert (let ((.def_16063 (= ldv_mutex_md_io_mutex_of_drbd_conf (_ bv1 32)))).def_16063))
+(assert (let ((.def_16070 (= ldv_mutex_mutex_of_drbd_socket (_ bv1 32)))).def_16070))
+(assert (let ((.def_16077 (= ldv_mutex_state_mutex_of_drbd_conf (_ bv1 32)))).def_16077))
+(assert (let ((.def_16082 (= ldv_mutex_md_io_mutex_of_drbd_conf (_ bv2 32)))).def_16082))
+(assert (let ((.def_16087 (= ldv_mutex_mutex_of_drbd_socket (_ bv2 32)))).def_16087))
+(assert (let ((.def_16092 (= ldv_mutex_state_mutex_of_drbd_conf (_ bv2 32)))).def_16092))
+

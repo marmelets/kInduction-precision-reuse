@@ -1,0 +1,19 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_cred_guard_mutex_of_signal_struct () (_ BitVec 32))
+(declare-fun ldv_mutex_lock () (_ BitVec 32))
+(declare-fun ldv_mutex_mtx_of_percpu_rw_semaphore () (_ BitVec 32))
+(declare-fun ldv_mutex_mutex_of_device () (_ BitVec 32))
+(declare-fun ldv_mutex_update_lock_of_it87_data () (_ BitVec 32))
+
+*:
+(assert (let ((.def_13785 (= ldv_mutex_cred_guard_mutex_of_signal_struct (_ bv1 32)))).def_13785))
+(assert (let ((.def_13792 (= ldv_mutex_lock (_ bv1 32)))).def_13792))
+(assert (let ((.def_13799 (= ldv_mutex_mtx_of_percpu_rw_semaphore (_ bv1 32)))).def_13799))
+(assert (let ((.def_13806 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_13806))
+(assert (let ((.def_13813 (= ldv_mutex_update_lock_of_it87_data (_ bv1 32)))).def_13813))
+(assert (let ((.def_13818 (= ldv_mutex_cred_guard_mutex_of_signal_struct (_ bv2 32)))).def_13818))
+(assert (let ((.def_13823 (= ldv_mutex_lock (_ bv2 32)))).def_13823))
+(assert (let ((.def_13828 (= ldv_mutex_mtx_of_percpu_rw_semaphore (_ bv2 32)))).def_13828))
+(assert (let ((.def_13833 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_13833))
+(assert (let ((.def_13838 (= ldv_mutex_update_lock_of_it87_data (_ bv2 32)))).def_13838))
+

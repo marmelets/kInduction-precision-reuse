@@ -1,0 +1,7 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_module_refcounter () (_ BitVec 32))
+
+*:
+(assert (let ((.def_2258 (= ldv_module_refcounter (_ bv1 32)))).def_2258))
+(assert (let ((.def_2263 (bvslt (_ bv1 32) ldv_module_refcounter))).def_2263))
+

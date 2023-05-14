@@ -1,0 +1,10 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_update_lock_of_backlight_device () (_ BitVec 32))
+(declare-fun ldv_mutex_update_lock_of_lcd_device () (_ BitVec 32))
+
+*:
+(assert (let ((.def_6942 (= ldv_mutex_update_lock_of_backlight_device (_ bv1 32)))).def_6942))
+(assert (let ((.def_6949 (= ldv_mutex_update_lock_of_lcd_device (_ bv1 32)))).def_6949))
+(assert (let ((.def_6954 (= ldv_mutex_update_lock_of_backlight_device (_ bv2 32)))).def_6954))
+(assert (let ((.def_6959 (= ldv_mutex_update_lock_of_lcd_device (_ bv2 32)))).def_6959))
+

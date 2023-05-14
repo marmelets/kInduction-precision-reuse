@@ -1,0 +1,19 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_cred_guard_mutex_of_signal_struct () (_ BitVec 32))
+(declare-fun ldv_mutex_disc_mutex_of_usb_serial () (_ BitVec 32))
+(declare-fun ldv_mutex_lock () (_ BitVec 32))
+(declare-fun ldv_mutex_mtx_of_percpu_rw_semaphore () (_ BitVec 32))
+(declare-fun ldv_mutex_mutex_of_device () (_ BitVec 32))
+
+*:
+(assert (let ((.def_4243 (= ldv_mutex_cred_guard_mutex_of_signal_struct (_ bv1 32)))).def_4243))
+(assert (let ((.def_4250 (= ldv_mutex_disc_mutex_of_usb_serial (_ bv1 32)))).def_4250))
+(assert (let ((.def_4257 (= ldv_mutex_lock (_ bv1 32)))).def_4257))
+(assert (let ((.def_4264 (= ldv_mutex_mtx_of_percpu_rw_semaphore (_ bv1 32)))).def_4264))
+(assert (let ((.def_4271 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_4271))
+(assert (let ((.def_4276 (= ldv_mutex_cred_guard_mutex_of_signal_struct (_ bv2 32)))).def_4276))
+(assert (let ((.def_4281 (= ldv_mutex_disc_mutex_of_usb_serial (_ bv2 32)))).def_4281))
+(assert (let ((.def_4286 (= ldv_mutex_lock (_ bv2 32)))).def_4286))
+(assert (let ((.def_4291 (= ldv_mutex_mtx_of_percpu_rw_semaphore (_ bv2 32)))).def_4291))
+(assert (let ((.def_4296 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_4296))
+

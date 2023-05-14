@@ -1,0 +1,10 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_spin_lock_of_NOT_ARG_SIGN () (_ BitVec 32))
+(declare-fun ldv_spin_node_size_lock_of_pglist_data () (_ BitVec 32))
+
+*:
+(assert (let ((.def_3824 (= ldv_spin_lock_of_NOT_ARG_SIGN (_ bv1 32)))).def_3824))
+(assert (let ((.def_3831 (= ldv_spin_node_size_lock_of_pglist_data (_ bv1 32)))).def_3831))
+(assert (let ((.def_3836 (= ldv_spin_lock_of_NOT_ARG_SIGN (_ bv2 32)))).def_3836))
+(assert (let ((.def_3841 (= ldv_spin_node_size_lock_of_pglist_data (_ bv2 32)))).def_3841))
+

@@ -1,0 +1,19 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_bm_change_of_drbd_bitmap () (_ BitVec 32))
+(declare-fun ldv_mutex_md_io_mutex_of_drbd_conf () (_ BitVec 32))
+(declare-fun ldv_mutex_mutex_of_device () (_ BitVec 32))
+(declare-fun ldv_mutex_mutex_of_drbd_socket () (_ BitVec 32))
+(declare-fun ldv_mutex_state_mutex_of_drbd_conf () (_ BitVec 32))
+
+*:
+(assert (let ((.def_3961 (= ldv_mutex_bm_change_of_drbd_bitmap (_ bv1 32)))).def_3961))
+(assert (let ((.def_3968 (= ldv_mutex_md_io_mutex_of_drbd_conf (_ bv1 32)))).def_3968))
+(assert (let ((.def_3975 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_3975))
+(assert (let ((.def_3982 (= ldv_mutex_mutex_of_drbd_socket (_ bv1 32)))).def_3982))
+(assert (let ((.def_3989 (= ldv_mutex_state_mutex_of_drbd_conf (_ bv1 32)))).def_3989))
+(assert (let ((.def_3994 (= ldv_mutex_bm_change_of_drbd_bitmap (_ bv2 32)))).def_3994))
+(assert (let ((.def_3999 (= ldv_mutex_md_io_mutex_of_drbd_conf (_ bv2 32)))).def_3999))
+(assert (let ((.def_4004 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_4004))
+(assert (let ((.def_4009 (= ldv_mutex_mutex_of_drbd_socket (_ bv2 32)))).def_4009))
+(assert (let ((.def_4014 (= ldv_mutex_state_mutex_of_drbd_conf (_ bv2 32)))).def_4014))
+

@@ -1,0 +1,7 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_lmutex_of_mISDNstack () (_ BitVec 32))
+
+*:
+(assert (let ((.def_32868 (= ldv_mutex_lmutex_of_mISDNstack (_ bv1 32)))).def_32868))
+(assert (let ((.def_32873 (= ldv_mutex_lmutex_of_mISDNstack (_ bv2 32)))).def_32873))
+

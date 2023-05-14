@@ -1,0 +1,22 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_i2c_lock_of_cx231xx () (_ BitVec 32))
+(declare-fun ldv_mutex_lock_of_cx231xx () (_ BitVec 32))
+(declare-fun ldv_mutex_lock_of_cx231xx_dvb () (_ BitVec 32))
+(declare-fun ldv_mutex_lock_of_v4l2_ctrl_handler () (_ BitVec 32))
+(declare-fun ldv_mutex_mutex_of_device () (_ BitVec 32))
+(declare-fun ldv_mutex_vb_lock_of_videobuf_queue () (_ BitVec 32))
+
+*:
+(assert (let ((.def_552 (= ldv_mutex_i2c_lock_of_cx231xx (_ bv1 32)))).def_552))
+(assert (let ((.def_559 (= ldv_mutex_lock_of_cx231xx (_ bv1 32)))).def_559))
+(assert (let ((.def_566 (= ldv_mutex_lock_of_cx231xx_dvb (_ bv1 32)))).def_566))
+(assert (let ((.def_573 (= ldv_mutex_lock_of_v4l2_ctrl_handler (_ bv1 32)))).def_573))
+(assert (let ((.def_580 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_580))
+(assert (let ((.def_587 (= ldv_mutex_vb_lock_of_videobuf_queue (_ bv1 32)))).def_587))
+(assert (let ((.def_592 (= ldv_mutex_i2c_lock_of_cx231xx (_ bv2 32)))).def_592))
+(assert (let ((.def_597 (= ldv_mutex_lock_of_cx231xx (_ bv2 32)))).def_597))
+(assert (let ((.def_602 (= ldv_mutex_lock_of_cx231xx_dvb (_ bv2 32)))).def_602))
+(assert (let ((.def_607 (= ldv_mutex_lock_of_v4l2_ctrl_handler (_ bv2 32)))).def_607))
+(assert (let ((.def_612 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_612))
+(assert (let ((.def_617 (= ldv_mutex_vb_lock_of_videobuf_queue (_ bv2 32)))).def_617))
+

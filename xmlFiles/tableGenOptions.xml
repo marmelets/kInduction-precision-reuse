@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+
+<!--
+This file is part of BenchExec, a framework for reliable benchmarking:
+https://github.com/sosy-lab/benchexec
+SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+SPDX-License-Identifier: Apache-2.0
+-->
+
+<!DOCTYPE table PUBLIC "+//IDN sosy-lab.org//DTD BenchExec table 1.10//EN" "https://www.sosy-lab.org/benchexec/table-1.10.dtd">
+<table>
+
+  <!-- This is a basic table-definition that provides nicer column titles
+       and a better unit for memory consumption than plain table-generator.
+       Use it like this:
+       table-generator -x .../table-generator-basic.xml RESULT [RESULT ...]
+  -->
+  <column title="status" displayTitle="Status"/>
+  <column title="cputime" displayTitle="CPU Time"/>
+  <column title="walltime" displayTitle="Wall Time"/>
+  <column title="memory" displayTitle="Memory" sourceUnit="B" displayUnit="MB"/>
+  <column title="Adapt Pred. Time" sourceUnit="s" displayUnit="ms">Time for adapting predicate precision: </column>
+  <column title="# invariants">Number of invariants proposed: </column>
+  <column title="Bound k">Bound k: </column>
+  <column title="Max. loop iteration">Maximum loop iteration reached: </column>
+<column title="BMC formula creation">Time for BMC formula creation: </column>
+<column title="final sat check">Time for final sat check: </column>
+<column title="bounding assertions check">Time for bounding assertions check: </column>
+<column title="induction formula check">Time for induction formula creation: </column>
+<column title="induction check">Time for induction check: </column>
+</table>

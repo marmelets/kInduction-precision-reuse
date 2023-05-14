@@ -1,0 +1,13 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_lock_of_fb_info () (_ BitVec 32))
+(declare-fun ldv_mutex_open_lock_of_arkfb_info () (_ BitVec 32))
+(declare-fun ldv_mutex_update_lock_of_backlight_device () (_ BitVec 32))
+
+*:
+(assert (let ((.def_1477 (= ldv_mutex_lock_of_fb_info (_ bv1 32)))).def_1477))
+(assert (let ((.def_1484 (= ldv_mutex_open_lock_of_arkfb_info (_ bv1 32)))).def_1484))
+(assert (let ((.def_1491 (= ldv_mutex_update_lock_of_backlight_device (_ bv1 32)))).def_1491))
+(assert (let ((.def_1496 (= ldv_mutex_lock_of_fb_info (_ bv2 32)))).def_1496))
+(assert (let ((.def_1501 (= ldv_mutex_open_lock_of_arkfb_info (_ bv2 32)))).def_1501))
+(assert (let ((.def_1506 (= ldv_mutex_update_lock_of_backlight_device (_ bv2 32)))).def_1506))
+

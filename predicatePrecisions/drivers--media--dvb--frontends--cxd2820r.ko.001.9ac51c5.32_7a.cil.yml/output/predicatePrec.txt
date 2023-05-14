@@ -1,0 +1,10 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_fe_lock_of_cxd2820r_priv () (_ BitVec 32))
+(declare-fun ldv_mutex_mutex_of_device () (_ BitVec 32))
+
+*:
+(assert (let ((.def_179 (= ldv_mutex_fe_lock_of_cxd2820r_priv (_ bv1 32)))).def_179))
+(assert (let ((.def_186 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_186))
+(assert (let ((.def_191 (= ldv_mutex_fe_lock_of_cxd2820r_priv (_ bv2 32)))).def_191))
+(assert (let ((.def_196 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_196))
+

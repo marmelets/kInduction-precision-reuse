@@ -1,0 +1,16 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_spin () (_ BitVec 32))
+(declare-fun |ldv_check_alloc_flags::flags| () (_ BitVec 32))
+(declare-fun |ldv_check_alloc_flags_and_return_some_page::flags| () (_ BitVec 32))
+
+*:
+(assert (let ((.def_6067 (= ldv_spin (_ bv0 32)))).def_6067))
+
+ldv_check_alloc_flags:
+(assert (let ((.def_6053 (= |ldv_check_alloc_flags::flags| (_ bv32 32)))).def_6053))
+(assert (let ((.def_6067 (= ldv_spin (_ bv0 32)))).def_6067))
+
+ldv_check_alloc_flags_and_return_some_page:
+(assert (let ((.def_6060 (= |ldv_check_alloc_flags_and_return_some_page::flags| (_ bv32 32)))).def_6060))
+(assert (let ((.def_6067 (= ldv_spin (_ bv0 32)))).def_6067))
+

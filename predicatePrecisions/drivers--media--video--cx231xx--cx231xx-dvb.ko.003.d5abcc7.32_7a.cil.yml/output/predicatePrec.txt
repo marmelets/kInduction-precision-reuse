@@ -1,0 +1,7 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_lock_of_cx231xx_dvb () (_ BitVec 32))
+
+*:
+(assert (let ((.def_1502 (= ldv_mutex_lock_of_cx231xx_dvb (_ bv1 32)))).def_1502))
+(assert (let ((.def_1507 (= ldv_mutex_lock_of_cx231xx_dvb (_ bv2 32)))).def_1507))
+

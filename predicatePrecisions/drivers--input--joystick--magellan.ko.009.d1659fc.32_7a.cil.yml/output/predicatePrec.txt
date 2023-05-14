@@ -1,0 +1,7 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_drv_mutex_of_serio () (_ BitVec 32))
+
+*:
+(assert (let ((.def_1441 (= ldv_mutex_drv_mutex_of_serio (_ bv1 32)))).def_1441))
+(assert (let ((.def_1446 (= ldv_mutex_drv_mutex_of_serio (_ bv2 32)))).def_1446))
+

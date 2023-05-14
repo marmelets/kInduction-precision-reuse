@@ -1,0 +1,23 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_module_refcounter () (_ BitVec 32))
+(declare-fun |ldv_main1_sequence_infinite_withcheck_stateful::ldv_s_drbd_proc_fops_file_operations| () (_ BitVec 32))
+(declare-fun __ADDRESS_OF___this_module@ () (_ BitVec 64))
+
+*:
+(assert (let ((.def_17062 (= ldv_module_refcounter (_ bv1 32)))).def_17062))
+(assert (let ((.def_17067 (bvslt (_ bv1 32) ldv_module_refcounter))).def_17067))
+
+reach_error N1:
+(assert false)
+(assert (let ((.def_17062 (= ldv_module_refcounter (_ bv1 32)))).def_17062))
+(assert (let ((.def_17067 (bvslt (_ bv1 32) ldv_module_refcounter))).def_17067))
+
+ldv_main1_sequence_infinite_withcheck_stateful N3101:
+(assert (let ((.def_17665 (= |ldv_main1_sequence_infinite_withcheck_stateful::ldv_s_drbd_proc_fops_file_operations| (_ bv0 32)))).def_17665))
+(assert (let ((.def_17062 (= ldv_module_refcounter (_ bv1 32)))).def_17062))
+(assert (let ((.def_17067 (bvslt (_ bv1 32) ldv_module_refcounter))).def_17067))
+(assert (let ((.def_19700 (= ldv_module_refcounter (_ bv2 32)))).def_19700))
+(assert (let ((.def_19702 (= |ldv_main1_sequence_infinite_withcheck_stateful::ldv_s_drbd_proc_fops_file_operations| (_ bv1 32)))).def_19702))
+(assert false)
+(assert (let ((.def_19645 (= __ADDRESS_OF___this_module@ (_ bv0 64)))).def_19645))
+

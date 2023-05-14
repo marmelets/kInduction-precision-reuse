@@ -1,0 +1,7 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_mutex_of_device () (_ BitVec 32))
+
+*:
+(assert (let ((.def_2644 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_2644))
+(assert (let ((.def_2649 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_2649))
+

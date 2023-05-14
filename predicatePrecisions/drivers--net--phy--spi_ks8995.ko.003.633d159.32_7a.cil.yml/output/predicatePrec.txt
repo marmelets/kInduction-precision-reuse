@@ -1,0 +1,16 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_cred_guard_mutex_of_signal_struct () (_ BitVec 32))
+(declare-fun ldv_mutex_lock () (_ BitVec 32))
+(declare-fun ldv_mutex_lock_of_ks8995_switch () (_ BitVec 32))
+(declare-fun ldv_mutex_mutex_of_device () (_ BitVec 32))
+
+*:
+(assert (let ((.def_585 (= ldv_mutex_cred_guard_mutex_of_signal_struct (_ bv1 32)))).def_585))
+(assert (let ((.def_592 (= ldv_mutex_lock (_ bv1 32)))).def_592))
+(assert (let ((.def_599 (= ldv_mutex_lock_of_ks8995_switch (_ bv1 32)))).def_599))
+(assert (let ((.def_606 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_606))
+(assert (let ((.def_611 (= ldv_mutex_cred_guard_mutex_of_signal_struct (_ bv2 32)))).def_611))
+(assert (let ((.def_616 (= ldv_mutex_lock (_ bv2 32)))).def_616))
+(assert (let ((.def_621 (= ldv_mutex_lock_of_ks8995_switch (_ bv2 32)))).def_621))
+(assert (let ((.def_626 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_626))
+

@@ -1,0 +1,16 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_ca_mutex_of_az6007_device_state () (_ BitVec 32))
+(declare-fun ldv_mutex_cred_guard_mutex_of_signal_struct () (_ BitVec 32))
+(declare-fun ldv_mutex_mutex_of_az6007_device_state () (_ BitVec 32))
+(declare-fun ldv_mutex_mutex_of_device () (_ BitVec 32))
+
+*:
+(assert (let ((.def_618 (= ldv_mutex_ca_mutex_of_az6007_device_state (_ bv1 32)))).def_618))
+(assert (let ((.def_625 (= ldv_mutex_cred_guard_mutex_of_signal_struct (_ bv1 32)))).def_625))
+(assert (let ((.def_632 (= ldv_mutex_mutex_of_az6007_device_state (_ bv1 32)))).def_632))
+(assert (let ((.def_639 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_639))
+(assert (let ((.def_644 (= ldv_mutex_ca_mutex_of_az6007_device_state (_ bv2 32)))).def_644))
+(assert (let ((.def_649 (= ldv_mutex_cred_guard_mutex_of_signal_struct (_ bv2 32)))).def_649))
+(assert (let ((.def_654 (= ldv_mutex_mutex_of_az6007_device_state (_ bv2 32)))).def_654))
+(assert (let ((.def_659 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_659))
+

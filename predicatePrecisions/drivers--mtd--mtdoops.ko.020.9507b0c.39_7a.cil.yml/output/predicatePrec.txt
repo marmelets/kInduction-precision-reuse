@@ -1,0 +1,16 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_spin_alloc_lock_of_task_struct () (_ BitVec 32))
+(declare-fun ldv_spin_lock_of_NOT_ARG_SIGN () (_ BitVec 32))
+(declare-fun ldv_spin_siglock_of_sighand_struct () (_ BitVec 32))
+(declare-fun ldv_spin_writecount_lock_of_mtdoops_context () (_ BitVec 32))
+
+*:
+(assert (let ((.def_560 (= ldv_spin_alloc_lock_of_task_struct (_ bv1 32)))).def_560))
+(assert (let ((.def_567 (= ldv_spin_lock_of_NOT_ARG_SIGN (_ bv1 32)))).def_567))
+(assert (let ((.def_574 (= ldv_spin_siglock_of_sighand_struct (_ bv1 32)))).def_574))
+(assert (let ((.def_581 (= ldv_spin_writecount_lock_of_mtdoops_context (_ bv1 32)))).def_581))
+(assert (let ((.def_586 (= ldv_spin_alloc_lock_of_task_struct (_ bv2 32)))).def_586))
+(assert (let ((.def_591 (= ldv_spin_lock_of_NOT_ARG_SIGN (_ bv2 32)))).def_591))
+(assert (let ((.def_596 (= ldv_spin_siglock_of_sighand_struct (_ bv2 32)))).def_596))
+(assert (let ((.def_601 (= ldv_spin_writecount_lock_of_mtdoops_context (_ bv2 32)))).def_601))
+

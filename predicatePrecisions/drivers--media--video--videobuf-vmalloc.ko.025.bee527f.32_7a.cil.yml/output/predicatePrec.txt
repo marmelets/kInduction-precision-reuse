@@ -1,0 +1,7 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_vb_lock_of_videobuf_queue () (_ BitVec 32))
+
+*:
+(assert (let ((.def_93 (= ldv_mutex_vb_lock_of_videobuf_queue (_ bv1 32)))).def_93))
+(assert (let ((.def_99 (= ldv_mutex_vb_lock_of_videobuf_queue (_ bv2 32)))).def_99))
+

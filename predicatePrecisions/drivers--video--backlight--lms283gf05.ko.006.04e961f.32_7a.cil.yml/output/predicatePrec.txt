@@ -1,0 +1,19 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun ldv_mutex_cred_guard_mutex_of_signal_struct () (_ BitVec 32))
+(declare-fun ldv_mutex_lock_of_fb_info () (_ BitVec 32))
+(declare-fun ldv_mutex_mutex_of_device () (_ BitVec 32))
+(declare-fun ldv_mutex_update_lock_of_backlight_device () (_ BitVec 32))
+(declare-fun ldv_mutex_update_lock_of_lcd_device () (_ BitVec 32))
+
+*:
+(assert (let ((.def_2330 (= ldv_mutex_cred_guard_mutex_of_signal_struct (_ bv1 32)))).def_2330))
+(assert (let ((.def_2337 (= ldv_mutex_lock_of_fb_info (_ bv1 32)))).def_2337))
+(assert (let ((.def_2344 (= ldv_mutex_mutex_of_device (_ bv1 32)))).def_2344))
+(assert (let ((.def_2351 (= ldv_mutex_update_lock_of_backlight_device (_ bv1 32)))).def_2351))
+(assert (let ((.def_2358 (= ldv_mutex_update_lock_of_lcd_device (_ bv1 32)))).def_2358))
+(assert (let ((.def_2363 (= ldv_mutex_cred_guard_mutex_of_signal_struct (_ bv2 32)))).def_2363))
+(assert (let ((.def_2368 (= ldv_mutex_lock_of_fb_info (_ bv2 32)))).def_2368))
+(assert (let ((.def_2373 (= ldv_mutex_mutex_of_device (_ bv2 32)))).def_2373))
+(assert (let ((.def_2378 (= ldv_mutex_update_lock_of_backlight_device (_ bv2 32)))).def_2378))
+(assert (let ((.def_2383 (= ldv_mutex_update_lock_of_lcd_device (_ bv2 32)))).def_2383))
+
